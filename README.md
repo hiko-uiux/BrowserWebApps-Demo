@@ -1,2 +1,3 @@
-# website-ui
-Hiko's website-ui dev-project
+# moriken-juku
+
+## Hirohiko's learning-log
