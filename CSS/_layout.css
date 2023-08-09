@@ -1,0 +1,94 @@
+/* box/wrapper-size */
+.page-wrapperS {
+  width: min(1000px, 92.5%);
+  margin: auto;
+}
+
+.page-wrapperM {
+  width: min(1280px, 93.75%);
+  margin: auto;
+}
+
+.page-wrapperL {
+  width: min(1366px, 95%);
+  margin: auto;
+}
+
+/* flex-wrapper */
+.flexBox {
+  display: flex;
+}
+
+.flexCenterY {
+  align-items: center;
+}
+
+.flexBox_center {
+  justify-content: center;
+}
+
+.flexBox_between {
+  justify-content: space-between;
+}
+
+/* flex-Items:2-col */
+.flex_2Col>article {
+  width: 50%;
+}
+
+.flex_3Col>article {
+  width: calc(100% / 3);
+}
+
+.flex_4Col>article {
+  width: 25%;
+}
+
+/* grid-wrapper */
+.gridBox {
+  display: grid;
+}
+
+/* grid-Items:XX */
+.grid_2Col {
+  grid-template-columns: 2, minmax(300px, 1f);
+}
+
+.grid_3Col {
+  grid-template-columns: 3, minmax(300px, 1f);
+}
+
+.grid_2Col {
+  grid-template-columns: 4, minmax(300px, 1f);
+}
+
+
+/* flex/grid-centering */
+.itemCenter {
+  place-items: center;
+}
+
+.itemCenterX {
+  justify-content: center;
+}
+
+.itemCenterY {
+  align-content: center;
+}
+
+.itemBetweenY {
+  align-content: space-between;
+}
+
+/* box-MarginBottom */
+.Box_mb1 {
+  margin-bottom: .5em;
+}
+
+.Box_mb2 {
+  margin-bottom: calc(.5em + 1vw);
+}
+
+.Box_mb3 {
+  margin-bottom: calc(1em + 3vw);
+}
