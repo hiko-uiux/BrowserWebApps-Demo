@@ -1,0 +1,65 @@
+@import url(./_reset.css);
+@import url(./_layout.css);
+@import url(./_typo.css);
+@import url(./themeColor.css);
+
+/* Head-Style */
+header {
+  padding: min(2.5vmax, 5vmin);
+}
+
+/* Section-Style */
+section {
+  padding: 10vmin 0;
+  gap: clamp(1rem, 1.5vmax, 3rem);
+}
+
+section>article {
+  cursor: pointer;
+}
+
+/* Item-Content */
+#contData_Block {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition-duration: .3s;
+  transition-timing-function: ease-in-out;
+  opacity: 0;
+  visibility: hidden;
+}
+
+#contData_Block>div {
+  height: 75vh;
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#contData_BlockBG {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: var(--blackTrs);
+}
+
+#contOff_btn {
+  background-color: brown;
+  position: absolute;
+  right: -.5em;
+  top: -.5em;
+  width: 2rem;
+  height: 2rem;
+}
+
+/* Item-Content For Animation */
+#contData_Block.show {
+  opacity: 1;
+  visibility: visible;
+}
