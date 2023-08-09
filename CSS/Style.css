@@ -1,8 +1,3 @@
-@import url(/CSS/_reset.css);
-@import url(/CSS/themeColor.css);
-@import url(/CSS/_layout.css);
-@import url(/CSS/_typo.css);
-
 /* Head-Style */
 header {
   padding: min(2.5vmax, 5vmin);
