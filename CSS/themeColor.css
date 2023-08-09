@@ -1,0 +1,27 @@
+:root {
+  --black: hsla(0, 0%, 11%, 1);
+  --blackTrs: hsla(0, 0%, 11%, .85);
+  --white: hsla(0, 0%, 100%, 1);
+  --whiteTrs: hsla(0, 0%, 100%, .85);
+  --grayL: #e7e7e7;
+}
+
+.black_bg {
+  background-color: var(--black);
+}
+
+.white_bg {
+  background-color: var(--white);
+}
+
+.grayL_bg {
+  background-color: var(--grayL);
+}
+
+.black_text {
+  color: var(--black);
+}
+
+.white_text {
+  color: var(--white);
+}
