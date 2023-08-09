@@ -1,0 +1,46 @@
+/* box-sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+/* margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd,
+ul,
+li {
+  margin: 0;
+}
+
+/* list */
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+}
+
+/* image */
+img {
+  max-width: 100%;
+}
+
+/* table */
+table {
+  border-collapse: collapse;
+}
+
+/* button-cursor */
+button {
+  border: none;
+  cursor: pointer;
+}
