@@ -1,0 +1,101 @@
+/* font */
+/* font-size */
+.textSize_SS {
+  font-size: 0.75rem;
+}
+
+.textSize_S {
+  font-size: 1rem;
+}
+
+.textSize_M {
+  font-size: 1.25rem;
+}
+
+.textSize_L {
+  font-size: 1.5rem;
+}
+
+.textSize_XL {
+  font-size: 2rem;
+}
+
+/* font-weight */
+.textBold_M {
+  font-weight: 600;
+}
+
+.textBold_L {
+  font-weight: 900;
+}
+
+/* text-align */
+.al_l {
+  text-align: left;
+}
+
+.al_c {
+  text-align: center;
+}
+
+.al_r {
+  text-align: right;
+}
+
+/* line-break */
+br.br_spOnly {
+  display: none;
+}
+
+
+
+/* box-padding */
+.iconBox {
+  padding: calc(0.25em) calc(.5em);
+}
+
+.btnBox_s {
+  padding: 0.35em 1.5em;
+}
+
+.textBox {
+  padding: calc(0.5em + .5vmin) calc(1em + 1vmin);
+}
+
+.inPage-BoxSpace {
+  padding: calc(0.5vw + 0.5vh) calc(1.5vw + 1.5vh);
+}
+
+/* box-border */
+.boxBorder_PR {
+  border-radius: 20vh;
+}
+
+.boxBorder_SR {
+  border-radius: 0.25em;
+}
+
+.boxBorder_MR {
+  border-radius: 0.75em;
+}
+
+
+
+/* box-Shadow */
+.boxShadowL {
+  box-shadow: 0 .5rem 2rem rgba(74, 84, 173, 0.15);
+}
+
+/* under-tablet-size */
+@media all and (max-width: 1024px) {
+  br.br_spOnly {
+    display: block;
+  }
+
+  br.br_pcOnly {
+    display: none;
+  }
+}
+
+/* under-smartPhone-size */
+@media all and (max-width: 480px) {}
