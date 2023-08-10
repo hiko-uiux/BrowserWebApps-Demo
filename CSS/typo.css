@@ -49,42 +49,7 @@ br.br_spOnly {
 
 
 
-/* box-padding */
-.iconBox {
-  padding: calc(0.25em) calc(.5em);
-}
 
-.btnBox_s {
-  padding: 0.35em 1.5em;
-}
-
-.textBox {
-  padding: calc(0.5em + .5vmin) calc(1em + 1vmin);
-}
-
-.inPage-BoxSpace {
-  padding: calc(0.5vw + 0.5vh) calc(1.5vw + 1.5vh);
-}
-
-/* box-border */
-.boxBorder_PR {
-  border-radius: 20vh;
-}
-
-.boxBorder_SR {
-  border-radius: 0.25em;
-}
-
-.boxBorder_MR {
-  border-radius: 0.75em;
-}
-
-
-
-/* box-Shadow */
-.boxShadowL {
-  box-shadow: 0 .5rem 2rem rgba(74, 84, 173, 0.15);
-}
 
 /* under-tablet-size */
 @media all and (max-width: 1024px) {
