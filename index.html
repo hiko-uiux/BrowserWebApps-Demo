@@ -11,8 +11,10 @@
   <link rel="stylesheet" href="./CSS/boxWrapper.css">
   <link rel="stylesheet" href="./CSS/layout.css">
   <link rel="stylesheet" href="./CSS/typo.css">
+  <link rel="stylesheet" href="./CSS/animation.css">
   <link rel="stylesheet" href="./CSS/Style.css">
   <script src="./JS/OuterUI_frame.js" defer></script>
+  <script src="./JS/jsLesson.js" defer></script>
 </head>
 
 <body>
@@ -21,45 +23,47 @@
   </header>
 
   <!-- cont-Aceess-Box -->
-  <section id="contAceess_Box" class="flexBox flex_3Col page-wrapperL">
+  <section id="contAceess_Box" class="flexBox flexBox_center flex_3Col page-wrapperL">
     <article class="grayL_bg boxBorder_SR">
-      <h3 class="al_c textBox">DOMに要素を追加・Level-1</h3>
+      <h3 class="al_c textBox">DOMに要素を追加<br /><span class="textSize_S">Level-1</span></h3>
       <div></div>
     </article>
 
     <article class="grayL_bg boxBorder_SR">
-      <h3 class="al_c textBox">DOMに要素を追加・Level-2</h3>
+      <h3 class="al_c textBox">DOMに要素を追加<br /><span class="textSize_S">Level-2</span></h3>
       <div></div>
     </article>
 
     <article class="grayL_bg boxBorder_SR">
-      <h3 class="al_c textBox">DOMに要素を追加・Level-3</h3>
+      <h3 class="al_c textBox">DOMに要素を追加<br /><span class="textSize_S">Level-3</span></h3>
       <div></div>
     </article>
   </section>
 
   <!-- contents-bg -->
   <div id="contData_Outer">
-    <div class="page-wrapperM white_bg boxBorder_SR">
+    <div class="page-wrapperM white_bg boxBorder_MR">
       <button id="contOff_btn" class="white_text boxBorder_PR">✖</button>
-
     </div>
     <span id="contData_BlockBG"></span>
   </div>
   </div>
 
   <!-- contents-data -->
-  <article data-contRender="0" class="contData_inner page-wrapperM blockBox">
-    <p class="al_c">1</p>
-    <ul></ul>
+  <article id="contents-data01" data-contRender="0" class="contData_inner page-wrapperM blockBox gridBox itemCenter">
+    <div>
+      <p class="al_c textSize_XL textBold_L Box_mb2"></p>
+      <ul class="al_c textSize_XL textBold_L Box_mb2"></ul>
+      <button class="textSize_L btnBox_s boxBorder_PR">押してみよう</button>
+    </div>
   </article>
 
-  <article data-contRender="1" class="contData_inner page-wrapperM blockBox">
+  <article data-contRender="1" class="contData_inner page-wrapperM blockBox gridBox itemCenter">
     <p class="al_c">2</p>
     <ul></ul>
   </article>
 
-  <article data-contRender="2" class="contData_inner page-wrapperM blockBox">
+  <article data-contRender="2" class="contData_inner page-wrapperM blockBox gridBox itemCenter">
     <p class="al_c">3</p>
     <ul></ul>
   </article>
