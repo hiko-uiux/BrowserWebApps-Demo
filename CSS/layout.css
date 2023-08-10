@@ -10,7 +10,7 @@
 }
 
 .page-wrapperL {
-  width: min(1366px, 95%);
+  width: min(1440px, 95%);
   margin: auto;
 }
 
@@ -78,17 +78,4 @@
 
 .itemBetweenY {
   align-content: space-between;
-}
-
-/* box-MarginBottom */
-.Box_mb1 {
-  margin-bottom: .5em;
-}
-
-.Box_mb2 {
-  margin-bottom: calc(.5em + 1vw);
-}
-
-.Box_mb3 {
-  margin-bottom: calc(1em + 3vw);
 }
