@@ -28,6 +28,9 @@
   padding: calc(0.5vw + 0.5vh) calc(1.5vw + 1.5vh);
 }
 
+/* BTN-Design */
+.btn_normal {}
+
 /* box-border */
 .boxBorder_PR {
   border-radius: 20vh;

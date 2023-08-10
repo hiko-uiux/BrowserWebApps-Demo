@@ -17,6 +17,7 @@
 /* flex-wrapper */
 .flexBox {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .flexCenterY {
@@ -31,17 +32,20 @@
   justify-content: space-between;
 }
 
-/* flex-Items:2-col */
+/* flex-Items:x-col */
 .flex_2Col>article {
-  width: 50%;
+  width: calc(50% - 2.5vw);
+  margin: 1.25vw;
 }
 
 .flex_3Col>article {
-  width: calc(100% / 3);
+  width: calc(100% / 3 - 2.5vw);
+  margin: 1.25vw;
 }
 
 .flex_4Col>article {
-  width: 25%;
+  width: calc(25% - 2.5vw);
+  margin: 1.25vw;
 }
 
 /* grid-wrapper */
@@ -78,4 +82,28 @@
 
 .itemBetweenY {
   align-content: space-between;
+}
+
+/* under-tablet-size */
+@media all and (max-width: 1024px) {
+
+  /* flex-Items:x-col */
+  .flex_3Col>article {
+    width: calc(50% - 2.5vw);
+  }
+
+  .flex_4Col>article {
+    width: calc(100% / 3 - 2.5vw);
+  }
+
+}
+
+/* under-smartPhone-size */
+@media all and (max-width: 480px) {
+
+  /* flex-Items:x-col */
+  :is(.flex_2Col, .flex_3Col, .flex_4Col)>article {
+    width: 95%;
+  }
+
 }

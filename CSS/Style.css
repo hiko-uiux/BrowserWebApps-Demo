@@ -6,7 +6,6 @@ header {
 /* Section-Style */
 section#contAceess_Box {
   padding: 10vmin 0;
-  gap: clamp(1rem, 1.5vmax, 3rem);
 }
 
 section#contAceess_Box>article {
@@ -69,8 +68,11 @@ section#contAceess_Box>article {
   z-index: 3;
 }
 
+.contData_inner * {
+  pointer-events: auto;
+}
 
-/* Item-Content For Animation */
+/* Item-Content On */
 .contData_inner.show,
 #contData_Outer.show {
   opacity: 1;
