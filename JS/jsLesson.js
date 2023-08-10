@@ -1,9 +1,9 @@
 /*
 Lesson-01：DOMに要素を追加Level-1
 */
-const data01_btn = document.querySelector("#contents-data01 > div > button");
-const data01_Title = document.querySelector("#contents-data01 > div > p");
-const data01_List = document.querySelector("#contents-data01 > div > ul");
+const data01_btn = document.querySelector("#contents-data01 > button");
+const data01_Title = document.querySelector("#contents-data01 > p");
+const data01_List = document.querySelector("#contents-data01 > ul");
 
 //演出
 data01_btn.addEventListener("click", () => {
