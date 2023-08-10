@@ -4,19 +4,25 @@ header {
 }
 
 /* Section-Style */
-section {
+section#contAceess_Box {
   padding: 10vmin 0;
   gap: clamp(1rem, 1.5vmax, 3rem);
 }
 
-section>article {
+section#contAceess_Box>article {
   cursor: pointer;
 }
 
-/* Item-Content */
-#contData_Block {
-  position: fixed;
+/* Item-Content-Outer */
+#contData_Outer {
   width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+#contData_Outer,
+.contData_inner {
+  position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -26,7 +32,7 @@ section>article {
   visibility: hidden;
 }
 
-#contData_Block>div {
+#contData_Outer>div {
   height: 75vh;
   position: absolute;
   z-index: 2;
@@ -46,14 +52,27 @@ section>article {
 #contOff_btn {
   background-color: brown;
   position: absolute;
-  right: -.5em;
-  top: -.5em;
-  width: 2rem;
-  height: 2rem;
+  right: 0;
+  top: 0;
+  width: 2.75rem;
+  height: 2.75rem;
+  transform: translate(35%, -35%);
+  z-index: 4;
 }
 
+/* Item-Content-Inner */
+.contData_inner {
+  height: 75vh;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  z-index: 3;
+}
+
+
 /* Item-Content For Animation */
-#contData_Block.show {
+.contData_inner.show,
+#contData_Outer.show {
   opacity: 1;
   visibility: visible;
 }
