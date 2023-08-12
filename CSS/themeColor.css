@@ -3,7 +3,11 @@
   --blackTrs: hsla(0, 0%, 11%, .85);
   --white: hsla(0, 0%, 100%, 1);
   --whiteTrs: hsla(0, 0%, 100%, .85);
+  --grayD: #333333;
+  --grayM: #5d5d5d;
   --grayL: #e7e7e7;
+  --red: #b60000;
+  --yellow: #d8bf00;
 }
 
 .black_bg {
@@ -18,10 +22,26 @@
   background-color: var(--grayL);
 }
 
+.grayD_bg {
+  background-color: var(--grayD);
+}
+
+.red_bg {
+  background-color: var(--red);
+}
+
 .black_text {
   color: var(--black);
 }
 
+.grayM_text {
+  color: var(--grayM);
+}
+
 .white_text {
   color: var(--white);
+}
+
+.white_yellow {
+  color: var(--yellow);
 }

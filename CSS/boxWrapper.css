@@ -21,11 +21,11 @@
 }
 
 .textBox {
-  padding: calc(0.5em + .5vmin) calc(1em + 1vmin);
+  padding: calc(0.25em + .5vmin) calc(.5em + 1vmin);
 }
 
 .blockBox {
-  padding: calc(0.5vw + 0.5vh) calc(1.5vw + 1.5vh);
+  padding: calc(1vw + 1vh) calc(1.5vw + 1.5vh);
 }
 
 /* BTN-Design */
@@ -44,7 +44,14 @@
   border-radius: 0.75em;
 }
 
+/* Overflow */
+.overFlowX-off {
+  overflow-x: hidden;
+}
 
+.overFlowY-off {
+  overflow-y: hidden;
+}
 
 /* box-Shadow */
 .boxShadowL {

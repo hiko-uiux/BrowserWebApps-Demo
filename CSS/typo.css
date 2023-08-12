@@ -21,13 +21,18 @@
 }
 
 /* font-weight */
-.textBold_M {
-  font-weight: 600;
+.textBold_L {
+  font-weight: lighter;
 }
 
-.textBold_L {
-  font-weight: 900;
+.textBold_M {
+  font-weight: normal;
 }
+
+.textBold_H {
+  font-weight: bolder;
+}
+
 
 /* text-align */
 .al_l {

@@ -24,7 +24,7 @@
   align-items: center;
 }
 
-.flexBox_center {
+.flexCenterX {
   justify-content: center;
 }
 
@@ -55,15 +55,15 @@
 
 /* grid-Items:XX */
 .grid_2Col {
-  grid-template-columns: 2, minmax(300px, 1f);
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .grid_3Col {
-  grid-template-columns: 3, minmax(300px, 1f);
+  grid-template-columns: repeat(3, 1fr);
 }
 
-.grid_2Col {
-  grid-template-columns: 4, minmax(300px, 1f);
+.grid_4Col {
+  grid-template-columns: repeat(4, 1fr);
 }
 
 
