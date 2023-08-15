@@ -71,7 +71,16 @@ section#contAceess_Box>article {
   pointer-events: auto;
 }
 
-/* contents-data */
+/* Item-Content On */
+.contData_inner.show,
+#contData_Outer.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+
+/* contents-data-List */
+/* contents-data01 */
 #contents-data01 {
   grid-template-rows: repeat(4, 25%);
 }
@@ -116,15 +125,4 @@ section#contAceess_Box>article {
 }
 
 
-
-
-
-
-
-
-/* Item-Content On */
-.contData_inner.show,
-#contData_Outer.show {
-  opacity: 1;
-  visibility: visible;
-}
+/* contents-data01 */
