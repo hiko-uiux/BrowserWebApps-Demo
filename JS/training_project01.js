@@ -1,3 +1,4 @@
+//運勢占いアプリ
 //Lesson-01~02：DOMに要素を追加
 const data01_Title = document.querySelector("#contents-data01 p");
 const data01_Box = document.querySelector("#contents-data01 > figure");
