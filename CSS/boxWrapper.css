@@ -45,12 +45,12 @@
 }
 
 /* Overflow */
-.overFlowX-off {
-  overflow-x: hidden;
+.overFlowX_scroll {
+  overflow-x: scroll;
 }
 
-.overFlowY-off {
-  overflow-y: hidden;
+.overFlowY_scroll {
+  overflow-y: scroll;
 }
 
 /* box-Shadow */
