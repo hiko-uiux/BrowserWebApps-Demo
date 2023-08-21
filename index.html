@@ -66,12 +66,30 @@
 
   <!-- contents-02 -->
   <article id="contents-data02" data-contRender="1" class="contData_inner page-wrapperM blockBox gridBox itemCenter">
-    <p class="al_c">Todoリスト<br /><span>1日のタスクを記録しよう</span></p>
+    <p class="al_c textSize_L textBold_H">Todoリスト<br /><span>1日のタスクを記録しよう</span></p>
     <form>
-      <label for="text"></label><input type="text" />
-      <button class="btnBox_s boxBorder_PR black_bg white_text">追加</button>
+      <label for="data02-text_taskInput">
+        <input id="data02-text_taskInput" class="textSize_M btnBox_s" type="text" placeholder="タスク名"
+          style="padding-left: .5em;padding-right: .5em;" />
+      </label>
+      <button id="data02-text_taskInputBTN" class="textSize_M btnBox_s boxBorder_SR black_bg white_text">追加</button>
     </form>
-    <ul></ul>
+    <div class="blockBox data02-taskOutput overFlowY_scroll">
+      <ul class="textSize_S">
+        <li class="textBox">タスク01</li>
+        <li class="textBox">タスク02</li>
+        <li class="textBox">タスク03</li>
+        <li class="textBox">タスク01</li>
+        <li class="textBox">タスク02</li>
+        <li class="textBox">タスク03</li>
+        <li class="textBox">タスク01</li>
+        <li class="textBox">タスク02</li>
+        <li class="textBox">タスク03</li>
+        <li class="textBox">タスク01</li>
+        <li class="textBox">タスク02</li>
+        <li class="textBox">タスク03</li>
+      </ul>
+    </div>
   </article>
 
   <!-- contents-03 -->

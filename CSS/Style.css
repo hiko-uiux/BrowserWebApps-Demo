@@ -125,4 +125,16 @@ section#contAceess_Box>article {
 }
 
 
-/* contents-data01 */
+/* contents-data02 */
+#contents-data02 {
+  grid-template-rows: 15% 15% 70%;
+}
+
+.data02-taskOutput {
+  width: 100%;
+  height: 100%;
+}
+
+.data02-taskOutput>ul>li:not(:last-of-type) {
+  border-bottom: 1px solid var(--grayL);
+}
