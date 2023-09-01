@@ -7,6 +7,7 @@
   --grayM: #5d5d5d;
   --grayL: #e7e7e7;
   --red: #b60000;
+  --green: forestgreen;
   --yellow: #d8bf00;
 }
 
@@ -28,6 +29,10 @@
 
 .red_bg {
   background-color: var(--red);
+}
+
+.green_bg {
+  background-color: var(--green);
 }
 
 .black_text {

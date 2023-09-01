@@ -1,5 +1,4 @@
-.textZoom_End {}
-
+/* Scale */
 .textZoom {
   animation-name: textZoom;
   animation-timing-function: ease-out;
@@ -26,5 +25,22 @@
   100% {
     opacity: 0;
     transform: scale(1) rotate(360deg);
+  }
+}
+
+/* Fade */
+.fadeUp {
+  animation-name: fadeUp;
+  animation-timing-function: ease-out;
+  animation-duration: .2s;
+}
+
+@keyframes fadeUp {
+  0% {
+    transform: translateY(50%);
+  }
+
+  100% {
+    transform: translateY(0);
   }
 }

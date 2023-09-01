@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="./CSS/typo.css">
   <link rel="stylesheet" href="./CSS/animation.css">
   <link rel="stylesheet" href="./CSS/Style.css">
-  <script src="./JS/OuterUI_frame.js" defer></script>
+  <script src="./JS/./OuterUI_Module.js" defer></script>
   <script src="./JS/training_project01.js" defer></script>
   <script src="./JS/training_project02.js" defer></script>
 </head>
@@ -70,26 +70,16 @@
     <form>
       <label for="data02-text_taskInput">
         <input id="data02-text_taskInput" class="textSize_M btnBox_s" type="text" placeholder="タスク名"
-          style="padding-left: .5em;padding-right: .5em;" />
+          style="padding-left: .5em;padding-right: .5em;" autocomplete="off" />
       </label>
-      <button id="data02-text_taskInputBTN" class="textSize_M btnBox_s boxBorder_SR black_bg white_text">追加</button>
+      <button id="data02-taskAddBTN" class="textSize_M btnBox_s boxBorder_SR black_bg white_text">追加</button>
     </form>
-    <div class="blockBox data02-taskOutput overFlowY_scroll">
-      <ul class="textSize_S">
-        <li class="textBox">タスク01</li>
-        <li class="textBox">タスク02</li>
-        <li class="textBox">タスク03</li>
-        <li class="textBox">タスク01</li>
-        <li class="textBox">タスク02</li>
-        <li class="textBox">タスク03</li>
-        <li class="textBox">タスク01</li>
-        <li class="textBox">タスク02</li>
-        <li class="textBox">タスク03</li>
-        <li class="textBox">タスク01</li>
-        <li class="textBox">タスク02</li>
-        <li class="textBox">タスク03</li>
+    <div id="data02-taskOutput" class="blockBox">
+      <ul class="textSize_S overFlowY_scroll">
       </ul>
+      <span></span>
     </div>
+    <div id="data02-statusBox" class="al_c textSize_M"></div>
   </article>
 
   <!-- contents-03 -->

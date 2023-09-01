@@ -1,5 +1,12 @@
-# moriken-juku
+# moriken-juku：Hirohiko's learning-log
 
-## Hirohiko's learning-log
+リリース情報(0815)：練習用 Project-01(DEMO)を完成した
 
-リリース情報(0815)：練習用プロジェクト 01(DEMO)を完成した
+## Project-02：ToDo リスト・要件定義
+
+- タスク名の追加機能 ⇒ 完了
+- タスク追加・連打対策/入力内容のクリア ⇒ 完了
+- タスクの削除機能 ⇒ 完了
+- タスク名の編集機能 ⇒ 対応中
+- 入力チェック機能 ⇒ 対応中
+- 登録数(タスク)制限機能 ⇒ 対応中
