@@ -1,5 +1,6 @@
 //ToDoリストアプリ
 //Lesson-03~05：DOMに要素を追加-Level2
+const data02_taskInput = document.querySelector("#data02-text_taskInput");
 const data02_List = document.querySelector("#data02-taskOutput > ul");
 const data02_AddBTN = document.getElementById("data02-taskAddBTN");
 const data02_status = document.getElementById("data02-statusBox");
@@ -51,7 +52,10 @@ async function addList(event) {
     );
     $BTNs.appendChild($compBTN);
 
-    // 3.DOM：statusMsg追加
+    // 3.DOM：入力欄value削除
+    data02_taskInput.value = "";
+
+    // 4.DOM：statusMsg追加
     await statusMsg("タスクを追加しました", 1, 200, 1000, 300);
   }
   data02_AddBTN.classList.remove("disabled"); //クリック禁止終了
